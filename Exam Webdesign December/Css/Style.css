@@ -1,0 +1,238 @@
+﻿body {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    /*background-color:lightgray;*/
+    
+    background-image: url('../Img/binarybackground.png');
+    font-family: Arial, Gadget, sans-serif;
+    /*VW units. They're the units associated with setting the viewport width. */
+    font-size: 95%;
+   /*font-size: 1vw;*/
+}
+
+#sidebar {
+    margin: 2%;
+    float: left;
+    width: 20%;
+    background-color: white;
+
+}
+
+#profilepic{
+    width:100%;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    margin-top:-4%;
+    list-style: none;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+#sidebar li a {
+    display: block;
+    padding: 8%;
+    text-decoration: none;
+    color:dimgray;
+    font-size: larger;
+    text-align: right;
+}
+
+#btnabout{
+    background-color:#558E6B;
+}
+/*
+#sidebar li a:hover{
+    background-color: #558E6B;
+    color: white;
+}
+*/
+
+#sidebar li {
+    background-color:black;
+    color: white;
+}
+#socialmedia { 
+    text-align:center;
+    margin:2%;
+    text-decoration:none;
+}
+#socialmedia img{
+    width:17%;
+    height:17%;
+    padding:2%;
+    margin-top:8%;
+     text-decoration:none;
+}
+
+footer{
+    padding:2%;
+    margin-bottom:8%;
+    text-align:center;
+    color:dimgray;
+    font-size:smaller;
+}
+
+#content{
+    padding:2%;
+    background-color:white;
+    float:right;
+    width:72%;
+    height:auto;
+    
+  
+}
+
+h1{
+    padding-left:2%;
+    margin-top:2%;
+    margin-bottom:-2%;
+    color:black;
+}
+h2{
+    padding-left:2%;
+    margin-bottom:-0.125%;
+    color:dimgray;
+}
+header h3{
+    padding-left:2.5%
+}
+
+#text{
+    padding:1%;
+    width:100%;
+    color:dimgray;
+}
+
+#graph1{
+    display:inline-block;
+    padding:2%;
+    width:45%;   
+}
+#graph2{
+    display:inline-block;
+    padding:2%;
+    width:45%;   
+}
+table{
+    width:100%;
+    margin-top:10%;
+    margin-bottom:15%;
+}
+
+table, th, td{
+    border:1px solid dimgray;
+    border-collapse:collapse;
+    text-align:center;
+}
+th, td{
+    padding:2%;
+}
+
+.greycell{
+    color:dimgray;
+    background-color:lightgray;
+}
+
+
+.button {
+  display: inline-block;
+  font-size:inherit;
+  border-radius: 1%;
+  background-color: #558E6B;
+  border: none;
+  color:white;
+  text-align: center;
+  vertical-align:middle;
+  padding: 1%;
+  width: 22%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top:5% ;
+  margin-bottom:5%;
+  margin-left:40%;
+}
+
+.button img{
+    width:10%;
+    padding-right:4%;
+
+}
+.button a{
+    text-decoration:none;
+    color:white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -2%;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 12%;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#newsletter{
+    background-color:white;
+    float: right;
+    width:72%;
+    height:auto;
+    margin:2%;    
+    display:none;
+}
+
+#newsletter input{
+    margin-top:2%;
+    margin-left:2%;
+}
+
+ input[type=text] {
+    width:43%;
+    padding:1%; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+    margin-bottom:2%;
+}
+ /*focus: wnr input element geselecteerd wordt*/
+input[type=text]:focus {
+    border-color:#558E6B; }
+
+#placementfix{
+    margin-left:70%;
+    margin-bottom:5%;
+}
+
+input[type=submit] {
+    width:80%;
+    padding:5% 10%; 
+    color:white;
+    background-color:#558E6B; 
+    border:0 none;
+    border-radius: 5px; 
+
+}
+
+input[type=submit]:hover {
+    background: #3e8e41;
+}
+
+

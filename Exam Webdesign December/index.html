@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Shaun Vercauteren">
+    <meta name="description" content="Shaun's website'">
+    <meta name="keywords" CONTENT="eerste website, biografie, projecten, contact">
+    <title>Vercauteren Shaun</title>
+    <link href="Css/Style.css" rel="stylesheet" />
+    <link rel="icon"
+          type="image/x-icon"
+          href="Img/favicon.ico">
+    <script src="Js/Script.js"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <img id="profilepic" src="Img/profielafbeelding.png"/>
+        <nav>
+            <ul>
+                <li><a id="btnabout" onclick="showcontent()">About</a></li>
+                <li><a id="btnsubscribe" onclick="showsubscribe()">Subscribe</a></li>
+            </ul>
+        </nav>
+        <div id="socialmedia">
+            <img src="Img/fb.png" />
+            <a href="https://www.facebook.com/shaun.vercauteren" target="_blank"><img src="Img/fb.png" alt="facebook link shaun"/></a>
+            <a href="https://twitter.com/exaltence" target="_blank"><img src="Img/twit.png" alt="twitter link shaun" /></a>
+            <a href="https://nl.linkedin.com/" target="_blank"><img src="Img/ln.png" alt="facebook link shaun" /></a>  
+        </div>
+        <footer><a>	&copy; Shaun Vercauteren</a></footer>
+    </div>
+
+    <div id="content">
+        <header>
+            <h3>WHO AM I</h3>    
+        </header>
+        <hr />
+        <div id="text">
+            <h1>Vercauteren Shaun</h1>
+            <h2>Student informatica</h2>
+            <div id="graph1">
+            <p>Geboren te Gent in 1994, opgegroeid in West-Vlaanderen en schoolgaande te Waregem & Kortrijk. Gekend als een “jack of all trades”
+                 heb ik in mijn levensloop begonnen met de studie Latijn-Wiskunde en afgestudeerd als Latijn- moderne talen. </p>
+                <!--Table1-->
+                <table>
+                    <tr>
+                        <td><span><strong>Name</strong></span></td>
+                        <td class="greycell">Shaun Vercauteren</td>
+                    </tr>
+                    <tr>
+                        <td><span><strong>Date of birth</strong></span></td>
+                        <td class="greycell">20 August 1994</td>
+                    </tr>
+                    <tr>
+                        <td><span><strong>Address</strong></span></td>
+                        <td class="greycell">Overacker 5 Harelbeke</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="graph2">
+            <p>Vervolgens heb ik mij gericht op een bachelor taal- & regiostudies Japanologie en uiteindelijk ben ik bij IT geëindigd.
+                Talen, wetenschap, wiskunde , programmeren, scripten en netwerken zijn velden die mij niet onbekend zijn en waar ik u graag mee verder help.</p>
+            <!--Table2-->
+                <table>
+                    <tr>
+                        <td><span><strong>Email</strong></span></td>
+                        <td class="greycell">shaun_vercauteren@hotmail.be</td>
+                    </tr>
+                    <tr>
+                        <td><span><strong>Phone</strong></span></td>
+                        <td class="greycell">+32 496 61 00 62</td>
+                    </tr>
+                    <tr>
+                        <td><span><strong>Skype</strong></span></td>
+                        <td class="greycell">razielsnv | Exaltence</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <hr />
+        
+            <button class="button"><span><img src="Img/clip.png" /><a href="Files/cv.pdf" download="cv.pdf">Download my CV</a></span></button>
+    </div>
+
+    <div id="newsletter">
+            <header>
+                <h3>SUBSCRIBE!</h3>
+            </header>
+            <hr />
+            <form action="db.php" method="post">
+                <input type="text" id="name" name="name" placeholder="Name"/>
+                <input type="text" id="email" name="email" placeholder="Email" />
+                <div id="placementfix">
+                <input class="button2"  type="submit" onclick="valideer()" value="Subscribe">
+                </div>
+            </form>
+        </div>
+</body>
+</html>
