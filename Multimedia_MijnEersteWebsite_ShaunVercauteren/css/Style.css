@@ -1,0 +1,229 @@
+﻿/*css om de body te stijlen*/
+body {
+    /*The width property sets the width of an element.*/
+    width: 70%;
+    /*The CSS margin properties are used to generate space around elements.*/
+    margin: 0 auto;
+    /*The height property sets the height of an element.*/
+     height:100%;
+    /*The background-image property sets one or more background images for an element*/
+    background-image: url('../Images/secure.jpg');
+    /*The background-repeat property sets if/how a background image will be repeated.*/
+    background-repeat:no-repeat;
+    /*The background-size property specifies the size of the background images.*/
+    background-size:250% 250%;
+    /*The font-family property specifies the font for an element.
+    The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.*/
+    font-family: Cambria, Georgia, serif;
+    /*The line-height property specifies the line height.*/
+    line-height: 1.2em;
+    /*The font-size property sets the size of a font.*/
+    font-size: 100%;
+    /*The color property specifies the color of text.*/
+    color:black;
+}
+/* Css om de header te stijlen*/
+header{
+     /*The width property sets the width of an element.*/
+    width:100%;
+     /*The height property sets the height of an element.*/
+    height:auto;
+    /*The border-style property specifies what kind of border to display.*/
+    border:5px solid;
+    /*The border-radius property is used to add rounded corners to an element.*/
+    border-radius: 25px;
+    /*The border-color property sets the color of an element's four borders.*/
+    border-color:white;
+}
+
+/* css om de image in de header te stijlen*/
+#imgheader{
+    /*The width property sets the width of an element.*/
+    width:100%;
+    /*The height property sets the height of an element.*/
+    height:20%;
+    /*The CSS margin properties are used to generate space around elements.*/
+    margin:auto;
+    /*The border-radius property is used to add rounded corners to an element.*/
+    border-radius:inherit;
+}
+/*stijling li elementen van het nav menu*/
+.headMenu li {
+    /*The float property specifies whether or not a box (an element) should float.*/
+    float: left;
+    /*The border-right shorthand property sets all the right border properties in one declaration.*/
+    border-right: 1px solid #bbb;
+    font-family: SpecifyMedium;
+    list-style:none;
+}
+/*stijling a elementen in de li van de nav*/
+.headMenu li a {
+    /*The display property specifies the type of box used for an HTML element.*/
+    display: block;
+    /*The color property specifies the color of text.*/
+    color: white;
+    /*The text-align property specifies the horizontal alignment of text in an element.*/
+    text-align: center;
+    /*The CSS padding properties are used to generate space around content.*/
+    /*The padding clears an area around the content (inside the border) of an element.*/
+    padding: 14px 16px;
+    /*The text-decoration property specifies the decoration added to text.*/
+    text-decoration: none;
+}
+/*li element waar als over gehovered wordt en het niet actief is*/
+.headMenu li a:hover:not(.active) {
+    /*The color property specifies the color of text.*/
+    color: darkblue;
+    /*The background-color property sets the background color of an element.*/
+    background-color: white;
+}
+/*css op het laatste li element van de nav*/
+.headMenu li:last-child {
+    /*The border-right shorthand property sets all the right border properties in one declaration.*/
+    border-right: none;
+}
+
+/*css op de active klasse*/
+.active {
+
+    background-color: darkblue;
+}
+
+/*css op de span elementen van de gallery klasse*/
+.gallery span {
+    /*The display property specifies the type of box used for an HTML element.*/
+    display:inline-block;
+    width: 20%;
+    height: auto;
+    margin: 10px 10px;
+    background-color:white;
+
+}
+/*css op de img van de gallery klasse*/
+.gallery img {
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:3%;
+    width:25%;
+    height:25%;
+
+
+}
+/*gallery klasse*/
+.gallery{
+    /*The clear property specifies on which sides of an element floating elements are not allowed to float.*/
+    clear:both;
+    padding : 5% 0% 0% 5%;
+}
+/*content klasse*/
+.content {
+    height:100%;
+    clear:both;
+    background-color:white;
+    border:5px solid;
+    border-radius: 25px;
+    border-color:white;
+   
+}
+
+/*css van het biografie id*/
+#Biografie {
+    float:left;
+    padding:1%;
+    width:98%;
+    height:auto;
+}
+/*css van het inhoud id*/
+#inhoud {
+    width:70%; 
+    float: left;
+    background-color:white;
+    border:5px solid;
+    border-radius: 25px;
+    border-color:white;
+     
+   
+}
+/*css van de img id*/
+#img{
+    float:left;
+    width:25%;
+    height:auto;
+    padding:1%;
+}
+
+/*css van het home id*/
+#Home{
+    text-align:center;
+}
+
+
+/*css die slaat op de footer*/
+footer {
+    color: white;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    width: 100%;
+}
+
+/*css die slaat op alle h3 elementen van de footer*/
+footer h3 {
+        display: inline;
+        float: right;
+        font-size: 100%;
+        text-decoration: none;
+    }
+/*css die slaat op de form*/
+#Contact form{
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:5%;
+}
+/*css die slaat op de projects klasse*/
+.projects {
+    /*The position property specifies the type of positioning method used for an element (static, relative, absolute or fixed).*/
+    position: relative;
+    display: inline-block;
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    
+}
+
+.projects {
+text-align:center;
+}
+
+#ytpic {
+width:18%;
+height:auto;
+}
+#gitpic {
+    width:20%;
+    height:auto;
+}
+
+.test {
+    height: auto;
+    width: 75%;
+}
+
+.video{
+    width:75%;
+    height: 50vh;
+}
+.videoDiv{
+    width:100%;
+    height:auto;
+    text-align:center;
+
+}
+
+.footerimg{
+    float: right;
+    width: 4%;
+    height: auto;
+    margin-right: 1%;
+    margin-top: 1%;
+}

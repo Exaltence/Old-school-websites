@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/Style.css" rel="stylesheet" type="text/css">
+
+    <script src="scripts/Js.js"></script>
+    <title>Shaun Vercauteren's 1ste Website</title>
+    <link rel="icon"
+          type="image/x-icon"
+          href="Images/favicon.ico">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav id="nav">
+            <div class="menu">
+                <ul class="headMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projecten.html">Projects</a></li>
+                    <li><a href="galerij.html">Gallery</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+       
+        <div id="Contact" class="content">
+            
+            <form>
+                <div class="line">
+                    <label for="txtVoornaam">Firstname</label>
+                    <input type="text" id="txtVoornaam">
+                    <span class="errorMessage" id="errVoornaam"></span>
+                </div>
+                <div class="line">
+                    <label for="txtFamilienaam">Name</label>
+                    <input type="text" id="txtFamilienaam">
+                    <span class="errorMessage" id="errFamilienaam"></span>
+                </div>
+                <div class="line">
+                    <label for="txtGeboorteDatum">Date of birth</label>
+                    <input type="text" id="txtGeboorteDatum">
+                    <span class="errorMessage" id="errGeboorteDatum"></span>
+                </div>
+                <div class="line">
+                    <label for="txtEmail">Email</label>
+                    <input type="text" id="txtEmail">
+                    <span class="errorMessage" id="errEmail"></span>
+                </div>
+                <textarea id="myTextArea"
+                          rows="3"
+                          cols="40">email content
+                </textarea>
+                <br />
+                <input type="button" id="btnValideer" value="Send E-mail">
+            </form>
+            <div class="videoDiv">
+                    <iframe class="video" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALml23UllwL-GT58wbU9Yk371GKkT8YfY&q=Overacker+5,+8530+Harelbeke"></iframe>
+            </div>
+        </div>
+        <div>
+            <div w3-include-html="include/footer.html"></div>
+    </div>
+        </div>
+    <script>
+w3IncludeHTML();
+    </script>
+</body>
+</html>
