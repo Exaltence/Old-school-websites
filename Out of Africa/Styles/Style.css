@@ -1,0 +1,99 @@
+body {
+    background: url("../Images/stripverloopokapi.jpg") repeat-x fixed;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, sans-serif;
+}
+
+#Logo {
+    margin-left: 45%;
+    margin-right: auto;
+}
+
+header {
+    background-image: url("../Images/headerokapi.jpg");
+    width: 970px;
+    height: 190px;
+    display: block;
+    margin: -30px auto 10px;
+    clear: both;
+    float: left;
+    border: 1px solid black;
+
+}
+
+header p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 970px;
+    float: left;
+    margin: 0px auto;
+    height: 35px;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+    color: #000;
+}
+nav a {
+    text-decoration: none;
+    margin: 50px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li {
+    display: inline;
+}
+section {
+    width: 970px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.Profielafbeelding {
+    float: left;
+    margin: 10px;
+}
+
+#Artiekel {
+    width: 60%;
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#outsideFotos {
+    float: right;
+    margin: 10px;
+}
+
+#citaat {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.Streep {
+    width: 970px;
+    height: 6px;
+    background: #000;
+    float: left;
+    margin-top: 50px;
+}
+
+footer {
+    width: 945px;
+    height: 38px;
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    padding: 10px 25px 0 0;
+}
