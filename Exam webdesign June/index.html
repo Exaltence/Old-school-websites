@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Examen Webdesign Juni 2015</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="styles/style.css" rel="StyleSheet" type="text/css"/>
+	<script src="scripts/jquery-1.11.3.min.js"></script></head>
+	<script src="scripts/script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <h1>Nieuw</h1>
+            <div>
+                <label for="model">Model</label>
+                <div>
+                    <input type="text" name="model" id="model" placeholder="Model"/>
+                </div>
+            </div>
+            <div>
+                <label for="price">Prijs</label>
+                <div>
+                    <input type="text" name="price" id="price" placeholder="Prijs"/>
+                </div>
+            </div>
+            <div>
+                <label for="description">Omschrijving</label>
+                <div>
+                    <textarea name="description" id="description" placeholder="Omschrijving van het product"></textarea>
+                </div>
+            </div>
+            <div>
+                <label for="energy-label">Energie</label>
+                <div>
+                    <select name="energy-label" id="energy-label">
+                        <option value="">Selecteer een label</option>
+                        <option value="A++">A++</option>
+                        <option value="A+">A+</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Wi-Fi</legend>
+                    <ol>
+                        <li><input type="radio" id="nowifi" name="wifi" value="Neen"/> <label for="nowifi">Neen</label></li>
+                        <li><input type="radio" name="wifi" id="yeswifi" value="Ja, ingebouwd"/> <label for="yeswifi">Ja, ingebouwd</label></li>
+                        <li><input type="radio" name="wifi" id="yes-dongle" value="Ja, met dongle (optie)"/> <label for="yes-dongle">Ja, met dongle (optie)</label></li>
+                    </ol>
+                </fieldset>
+            </div>
+            <input id="add" type="submit" value="Toevoegen"/>
+        </div>
+        <section id="right">
+            <h1>Lijst</h1>
+            <div id="list">
+                <h2 style="border-bottom:1px solid">TV &amp; Audio</h2>
+         
+            </div>
+        </section>
+        <footer>
+            <h6>&copy; VIVES Webdesign 2014-2015</h6>
+        </footer>
+    </div>
+</body>
+</html>

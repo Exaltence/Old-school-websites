@@ -1,0 +1,185 @@
+body {
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+*:focus {
+    outline: none; /* Prevents blue border in Webkit */
+}
+
+label {
+    display: inline-block;
+    min-width: 65px;
+}
+
+form > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, select, input, textarea {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 290px;
+    min-height: 25px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+    display: block
+}
+
+input[type=radio] {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    display: inline-block
+}
+
+textarea {
+    min-height: 125px;
+}
+
+select:focus, input:focus, textarea:focus {
+    -webkit-box-shadow: 0 0 25px #ccc;
+    -moz-box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 25px #ccc;
+
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+/* The interesting bit */
+select:not(:focus), input:not(:focus), textarea:not(:focus) {
+    opacity: 0.5;
+}
+
+select:required, input:required, textarea:required {
+    background: url("../images/asterisk_orange.png") no-repeat 265px 7px;
+}
+
+select:required {
+    background-position: 255px 7px;
+}
+
+select:valid, input:valid, textarea:valid {
+    background: url("../images/tick.png") no-repeat 265px 5px;
+}
+
+select:valid {
+    background-position: 255px 7px;
+}
+
+select:focus:invalid, input:focus:invalid, textarea:focus:invalid {
+    background: url("../images/cancel.png") no-repeat 265px 7px;
+}
+
+select:focus:invalid {
+    background-position: 255px 7px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background: none;
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+fieldset ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    width: auto;
+    max-width: 275px;
+    padding: 0.5em;
+    margin: 0 0 0.5em 0;
+}
+
+article{
+    border-bottom: 2px solid #000;
+    margin:5px;
+}
+
+article > div{
+    float:left;
+    padding:5px;
+}
+
+article > div:nth-of-type(1).small {
+    width:100px;
+}
+article > div:nth-of-type(1).large {
+    width:500px;
+}
+article > div:nth-of-type(1).small > img {
+     width:80px;
+ }
+article > div:nth-of-type(1).large > img {
+    width:100%;
+}
+article > div:nth-of-type(2) {
+    width:300px;
+}
+article > div:nth-of-type(3) {
+    width:200px;
+}
+#container{
+    width:1060px;
+    margin:auto;
+}
+#left{
+    width:340px;
+    /*background-color:red;*/
+    float:left;
+    padding:5px;
+}
+#right{
+    width:700px;
+    float:left;
+    /*background-color:green;*/
+    padding:5px;
+}
+
+footer{
+    clear:both;
+    /*background-color:blue;*/
+    padding:5px;
+}
+.priceTag{
+    font-size:18px;
+    font-weight:bold;
+    color:red;
+}
+.clear{
+    clear:both;
+}
+
+#rem{
+width: 135px;
+height: 45px;
+}
+
+.groot{
+width: 500px;
+height: 500px;
+}
+
+.klein {
+width: 80px;
+height: 80px;
+}
